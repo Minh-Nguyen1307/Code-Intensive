@@ -1,25 +1,15 @@
 
+const Courses = (props) => {
+    const {image, title, author, rating, content, cost } = props;
 
-export default function Courses() {
+ 
   return (
 <div>
-    <div className="card" style={{width: '18rem'}}>
-        <img src="..." className="card-img-top" alt="..." />
-        <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <ul className="list-group list-group-flush">
-            <li className="list-group-item">An item</li>
-            <li className="list-group-item">A second item</li>
-            <li className="list-group-item">A third item</li>
-        </ul>
-        <div className="card-body">
-            <a href="#" className="card-link">Card link</a>
-            <a href="#" className="card-link">Another link</a>
-        </div>
-    </div>
+    <div className="width-298 height-338 border-1-solid-black">
+        <img src={image} alt="" className="width-266 height-139 border-radius-50"/>
 
+    </div>
 </div>
   )
 }
+export default Courses;

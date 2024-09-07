@@ -1,7 +1,8 @@
 
 import Footer from '../Components/Footer/Footer'
 import Header from '../Components/Header/Header'
-import TopCourses from '../Components/TopCourses/TopCourses'
+import TopCourses from '../Components/TopCourses/TopCourses/TopCourses'
+
 import './App.css'
 
 function App() {
