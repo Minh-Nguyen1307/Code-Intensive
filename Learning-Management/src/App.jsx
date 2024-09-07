@@ -1,6 +1,7 @@
 
-import Footer from '../Components/Footer'
-import Header from '../Components/Header'
+import Footer from '../Components/Footer/Footer'
+import Header from '../Components/Header/Header'
+import TopCourses from '../Components/TopCourses/TopCourses'
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
     <Header />
+    <TopCourses />
 
     <Footer/>
         
