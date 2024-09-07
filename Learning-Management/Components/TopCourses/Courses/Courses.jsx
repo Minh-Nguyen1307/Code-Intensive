@@ -1,15 +1,21 @@
-
+import './Courses.css'
 const Courses = (props) => {
     const {image, title, author, rating, content, cost } = props;
 
- 
-  return (
-<div>
-    <div className="width-298 height-338 border-1-solid-black">
-        <img src={image} alt="" className="width-266 height-139 border-radius-50"/>
 
+  return (
+    <div className="courses">
+        <div className='coursesContent'>
+            <img src={image}/>
+            <div className='coursesWord'>
+                <h6>{title}</h6>
+                <p>{author}</p>
+                <p>⭐⭐⭐⭐⭐{rating}</p>
+                <p>{content}</p>
+                <h5>{cost}</h5>
+            </div>
+        </div>
     </div>
-</div>
   )
 }
 export default Courses;

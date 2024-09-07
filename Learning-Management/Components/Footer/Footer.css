@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-size: 16px;
 }
 .footer0 {
     width: 1280px;

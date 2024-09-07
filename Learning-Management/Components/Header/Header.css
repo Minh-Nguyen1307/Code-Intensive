@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 16px;
 }
 .header1 {
     cursor: pointer;
