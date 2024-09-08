@@ -1,0 +1,6 @@
+.listTopInstructor {
+    width: 1280px;
+    height: 281px;
+    display: flex;
+    justify-content: space-between;
+}

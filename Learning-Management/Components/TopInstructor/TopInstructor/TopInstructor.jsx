@@ -4,7 +4,7 @@ import './TopInstructor.css'
 
 export default function TopInstructor() {
   return (
-    <div>
+    <div className='topInstructor'>
         <HeaderTopInstructor />
         <ListTopInstructor />
     </div>
