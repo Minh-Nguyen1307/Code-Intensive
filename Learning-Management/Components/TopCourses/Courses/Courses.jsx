@@ -1,12 +1,12 @@
 import './Courses.css'
 const Courses = (props) => {
-    const {image, title, author, rating, content, cost } = props;
+    const {imageCourse, title, author, rating, content, cost } = props;
 
 
   return (
     <div className="courses">
         <div className='coursesContent'>
-            <img src={image}/>
+            <img src={imageCourse}/>
             <div className='coursesWord'>
                 <h6>{title}</h6>
                 <p>{author}</p>
