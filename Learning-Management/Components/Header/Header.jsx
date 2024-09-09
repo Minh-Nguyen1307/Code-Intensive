@@ -1,5 +1,5 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+
+import { Link } from 'react-router-dom';
 
 import './Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -14,17 +14,17 @@ export default function Header() {
     
     <div className='header'>
         <div className='header1'>
-            <img src="./public/Byway.png" alt="logoByway" />
+        <Link to="/"><img src="./public/Byway.png" alt="logoByway" /></Link>
         </div>
         <div className='header2'>
-            <Link to = "/DetailCourses">Categories</Link>
+        <Link to ="/DetailCourses">Categories</Link>
         </div>
         <div className='header3'>
             <span><FontAwesomeIcon icon={faMagnifyingGlass} className='search-icon' /></span>
             <input type="search" placeholder='Search courses' className='search-input' />
         </div>
         <div className='header4'>
-           Teach on Byway 
+          Teach on Byway
         </div>
         <div className='header5'>
             <span><FontAwesomeIcon icon={faCartShopping} className='cart-icon' /><a href=""></a></span>
